@@ -42,14 +42,11 @@ a:visited {
 
 .work{
 	display: inline-block;
-	color: #d8e9fa;
-	border-bottom: 2px solid #d8e9fa;
 	font-size: 16px;
 }
 
 .work:hover{
 	color: #d8e9fa;
-	border-bottom: 2px solid #d8e9fa;
 	cursor: pointer;
 }
 
@@ -60,11 +57,14 @@ a:visited {
 
 .about{
 	display: inline-block;
+	color: #d8e9fa;
+	border-bottom: 2px solid #d8e9fa;
 	font-size: 16px;
 }
 
-.about:hover{
+#about:hover{
 	color: #d8e9fa;
+	border-bottom: 2px solid #d8e9fa;
 	cursor: pointer;
 }
 
@@ -79,29 +79,6 @@ a:visited {
 	cursor: pointer;
 }
 
-#grid{
-	margin-top: 65px;
-}
-
 hr {
 	opacity: 0.6;
-}
-
-img {
-	padding-right: 3.5px;
-	padding-bottom: 2px;
-	width: 32.6%;
-	cursor: pointer;
-}
-
-p {
-	margin-top: 80px;
-	font-size: 20px;
-	line-height: 36px;
-
-}
-
-.width{
-	margin-top: 70px;
-	width: 100%;
 }
